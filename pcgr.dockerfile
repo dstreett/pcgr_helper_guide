@@ -32,4 +32,4 @@ RUN echo "conda activate pcgr" >> /root/.bashrc
 RUN git clone https://github.com/sigven/pcgr.git
 
 WORKDIR /usr/pcgr/pcgr
-
+RUN mkdir /usr/pcgr/pcgr/test_out

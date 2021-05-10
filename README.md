@@ -47,5 +47,5 @@ Lastly, we can run the example data through PCGR.
 
 ``` bash
 # Within docker from the previous command.
-pcgr.py --pcgr_dir $HOME/Downloads --output_dir test_out --sample_id tumor_sample.BRCA --genome_assembly grch37 --conf examples/example_BRCA.toml --input_vcf examples/tumor_sample.BRCA.vcf.gz --tumor_site 9 --input_cna examples/tumor_sample.BRCA.cna.tsv --tumor_purity 0.9 --tumor_ploidy 2.0 --include_trials --assay WES --estimate_signatures --estimate_msi_status --estimate_tmb --no_vcf_validate --no-docker
+pcgr.py --pcgr_dir /data --output_dir ./test_out --sample_id tumor_sample.BRCA --genome_assembly grch37 --conf examples/example_BRCA.toml --input_vcf examples/tumor_sample.BRCA.vcf.gz --tumor_site 9 --input_cna examples/tumor_sample.BRCA.cna.tsv --tumor_purity 0.9 --tumor_ploidy 2.0 --include_trials --assay WES --estimate_signatures --estimate_msi_status --estimate_tmb --no_vcf_validate --no-docker
 ```
